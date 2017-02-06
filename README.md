@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # ReduxSimpleStarter
 
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
@@ -27,4 +27,4 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 =======
 # redux-blog
 A simple Redux blog using react, redux, react router and redux forms.
->>>>>>> c18f4bfd177ab21cdd322167810b894d244c7e5f
+
