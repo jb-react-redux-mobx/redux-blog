@@ -1,4 +1,8 @@
 module.exports = {
+  headers:{
+      "Access-Control-Allow-Origin": "https://simpletodoapi.herokuapp.com",
+      "Access-Control-Allow-Credentials": "true"
+  },
   entry: [
     './src/index.js'
   ],
@@ -20,6 +24,10 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   devServer: {
+    headers:{
+      "Access-Control-Allow-Origin": "https://simpletodoapi.herokuapp.com",
+      "Access-Control-Allow-Credentials": "true"
+    },
     historyApiFallback: true,
     contentBase: './'
   }
